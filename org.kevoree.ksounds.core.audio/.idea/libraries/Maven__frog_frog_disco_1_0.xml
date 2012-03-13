@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: frog:frog.disco:1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/FrogDisco.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

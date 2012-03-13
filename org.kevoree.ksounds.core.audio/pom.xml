@@ -13,6 +13,20 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.kevoree</groupId>
+            <artifactId>org.kevoree.kcl</artifactId>
+            <version>${kevoree.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>frog.disco</artifactId>
+            <groupId>frog</groupId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>
+                /Users/duke/Documents/dev/dukeboard/kevoree-sounds/org.kevoree.ksounds.core.audio/lib/FrogDisco.jar
+            </systemPath>
+        </dependency>
     </dependencies>
 
 </project>
