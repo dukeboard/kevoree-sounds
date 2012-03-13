@@ -35,14 +35,14 @@ public class ExampleFrogDisco extends CoreAudioRenderAdapter {
   public void play() {
     frogDisco.play();
   }
-  
+  /*
   @Override
   public void onCoreAudioShortRenderCallback(ShortBuffer buffer) {
     int length = buffer.capacity();
     for (int i = 0; i < length; i++, sampleIndex++) {
       buffer.put((short) (32767.0 * Math.sin(2.0 * Math.PI * 440.0 * sampleIndex / 44100.0)));
     }
-  }
+  }*/
  
   @Override
   public void onCoreAudioFloatRenderCallback(FloatBuffer buffer) {

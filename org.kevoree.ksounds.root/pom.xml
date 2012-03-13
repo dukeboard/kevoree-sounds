@@ -11,6 +11,7 @@
     <properties>
         <kevoree.version>1.6.0-BETA5</kevoree.version>
         <kevoree.include>*:*</kevoree.include>
+        <ksounds.version>${project.version}</ksounds.version>
     </properties>
 
     <modules>
@@ -40,5 +41,18 @@
             <url>http://maven.kevoree.org/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.kevoree.tools</groupId>
+            <artifactId>org.kevoree.tools.javase.framework</artifactId>
+            <version>${kevoree.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.kevoree.tools</groupId>
+            <artifactId>org.kevoree.tools.annotation.api</artifactId>
+            <version>${kevoree.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

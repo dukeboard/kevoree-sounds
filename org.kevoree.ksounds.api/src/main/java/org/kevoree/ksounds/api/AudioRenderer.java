@@ -25,6 +25,7 @@ public abstract class AudioRenderer extends AbstractComponentType {
 	
 	@Port(name = "format")
 	public abstract void configureFormat(Object message);
-	
+
+    @Port(name = "data")
 	public abstract void writeData(Object message);
 }

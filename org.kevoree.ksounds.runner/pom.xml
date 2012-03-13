@@ -7,5 +7,11 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>Kevoree :: KSounds :: Runner</name>
 
+    <parent>
+        <artifactId>org.kevoree.ksounds.root</artifactId>
+        <groupId>org.kevoree.ksounds</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../org.kevoree.ksounds.root/pom.xml</relativePath>
+    </parent>
 
 </project>
