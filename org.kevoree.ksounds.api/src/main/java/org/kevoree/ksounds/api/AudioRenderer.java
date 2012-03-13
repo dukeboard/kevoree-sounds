@@ -15,7 +15,7 @@ import org.kevoree.framework.AbstractComponentType;
 @ComponentFragment
 @MessageTypes({
         @MessageType(name = "format", elems = {@MsgElem(name = "bitrate", className = Float.class), @MsgElem(name = "channels", className = Integer.class), @MsgElem(name = "samplerate", className = Float.class)}),
-		@MessageType(name = "format", elems = {@MsgElem(name = "data", className = byte[].class)})
+		@MessageType(name = "format", elems = {@MsgElem(name = "data", className = byte[].class), @MsgElem(name = "length", className = Integer.class)})
 })
 @Provides({
 		@ProvidedPort(name = "data", type = PortType.MESSAGE, messageType = "data"),
