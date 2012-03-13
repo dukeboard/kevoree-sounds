@@ -72,7 +72,7 @@ public class JavaxSoundRenderer extends AudioRenderer {
 				}
 			}
 		} catch (LineUnavailableException e) {
-			e.printStackTrace();
+			logger.error("Unable to get a line to send sounds", e);
 		}
 	}
 
