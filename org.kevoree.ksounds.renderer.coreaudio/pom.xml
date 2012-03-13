@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.kevoree.ksounds</groupId>
-    <artifactId>org.kevoree.ksounds</artifactId>
+    <artifactId>org.kevoree.ksounds.coreaudio</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>Kevoree :: KSounds :: CoreAudio</name>
 
@@ -18,6 +18,7 @@
             <artifactId>org.kevoree.kcl</artifactId>
             <version>${kevoree.version}</version>
         </dependency>
+        <!--
         <dependency>
             <artifactId>frog.disco</artifactId>
             <groupId>frog</groupId>
@@ -27,6 +28,8 @@
                 /Users/duke/Documents/dev/dukeboard/kevoree-sounds/org.kevoree.ksounds.core.audio/lib/FrogDisco.jar
             </systemPath>
         </dependency>
+        -->
+        
     </dependencies>
 
 </project>
